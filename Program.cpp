@@ -3,8 +3,8 @@
 
 using namespace std;
 
-constexpr char italian_alphabet[23] = " ABCDEFGHILMNOPQRSTUVZ"; // Simplified to a single-dimensional array.
-constexpr int alphabet_size = sizeof(italian_alphabet) - 1;     // Exclude null terminator for correct size.
+constexpr char italian_alphabet[23] = " ABCDEFGHILMNOPQRSTUVZ";
+constexpr int alphabet_size = sizeof(italian_alphabet) - 1;
 
 namespace
 {
